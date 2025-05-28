@@ -1,0 +1,5 @@
+{
+  "blogBasePath": "/cicd_tutorial/blog",
+  "blogTitle": "Blog",
+  "authorsListPath": "/cicd_tutorial/blog/authors"
+}
