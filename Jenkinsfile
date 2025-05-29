@@ -4,8 +4,9 @@ pipeline{
             image 'node'}
     }
 
-    // environment{
-    // } 
+    environment{
+        NPM_CONFIG_CACHE = "/tmp/npm-cache"
+    } 
 
     stages{
         stage('build'){
