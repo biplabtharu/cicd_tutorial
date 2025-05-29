@@ -9,6 +9,11 @@ pipeline{
     } 
 
     stages{
+        stage("checkout"){
+            stpes{
+                checkout scm
+            }
+        }
         stage('build'){
             steps{
                 sh '''
