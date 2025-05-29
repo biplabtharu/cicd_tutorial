@@ -5,8 +5,6 @@ pipeline{
     }
 
     // environment{
-    //     CI_REGISTRY = ''
-    //     USERNAME = ''
     // } 
 
     stages{
