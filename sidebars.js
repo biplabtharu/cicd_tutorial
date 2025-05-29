@@ -31,5 +31,5 @@ const sidebars = {
   ],
    */
 };
-
+// export default
 export default sidebars;
