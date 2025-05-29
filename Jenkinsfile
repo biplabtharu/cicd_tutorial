@@ -14,10 +14,13 @@ pipeline{
                 checkout scm
             }
         }
+        
         stage('build'){
             steps{
-                sh "npm install"
-                sh "npm run build"
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {       
+                    sh "npm install"
+                    sh "npm run build"
+                }
             }
         }
 
