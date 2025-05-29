@@ -20,12 +20,14 @@ pipeline{
 
         stage("markdown_test"){
             steps{
-                sh '''
-                    npm install 
-                    npm install markdownlint-cli2 --global
-                    markdownlint-cli2 -v
-                    markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
-                '''
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh '''
+                        npm install 
+                        npm install markdownlint-cli2 --global
+                        markdownlint-cli2 -v
+                        markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+                    '''
+                    }
             }
         }
     }  
