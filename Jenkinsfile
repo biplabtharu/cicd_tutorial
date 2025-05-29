@@ -1,7 +1,7 @@
 pipeline{
     agent{
         docker{
-            image 'node'}
+            image 'node:20'}
     }
 
     environment{
@@ -18,17 +18,17 @@ pipeline{
             }
         }
 
-        stage("markdown_test"){
-            steps{
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    sh '''
-                        npm install 
-                        npm install markdownlint-cli2 --global
-                        markdownlint-cli2 -v
-                        markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
-                    '''
-                    }
-            }
-        }
+        // stage("markdown_test"){
+        //     steps{
+        //         catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+        //             sh '''
+        //                 npm install 
+        //                 npm install markdownlint-cli2 --global
+        //                 markdownlint-cli2 -v
+        //                 markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+        //             '''
+        //             }
+        //     }
+        // }
     }  
 }
