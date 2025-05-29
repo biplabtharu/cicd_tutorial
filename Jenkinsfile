@@ -7,7 +7,7 @@ pipeline{
     environment{
         NPM_CONFIG_CACHE = "/tmp/npm-cache"
     } 
-
+// that
     stages{
         stage("checkout"){
             steps{
