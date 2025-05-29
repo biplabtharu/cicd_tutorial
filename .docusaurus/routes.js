@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/cicd_tutorial/__docusaurus/debug',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug', '142'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/config',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/config', 'ef2'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/content',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/content', '39c'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/globalData',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/globalData', 'e26'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/metadata',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/metadata', '9fe'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/registry',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/registry', 'd29'),
-    exact: true
-  },
-  {
-    path: '/cicd_tutorial/__docusaurus/debug/routes',
-    component: ComponentCreator('/cicd_tutorial/__docusaurus/debug/routes', '2cd'),
-    exact: true
-  },
-  {
     path: '/cicd_tutorial/blog',
     component: ComponentCreator('/cicd_tutorial/blog', 'e29'),
     exact: true

@@ -7,8 +7,7 @@ pipeline{
     environment{
         NPM_CONFIG_CACHE = "/tmp/npm-cache"
     } 
-// that
-// is 
+    
     stages{
         stage("checkout"){
             steps{
@@ -17,10 +16,8 @@ pipeline{
         }
         stage('build'){
             steps{
-                sh '''
-                    npm install
-                    npm run build
-                '''
+                sh "npm install"
+                sh "npm run build"
             }
         }
 

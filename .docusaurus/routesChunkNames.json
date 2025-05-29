@@ -1,316 +1,273 @@
 {
-  "/cicd_tutorial/__docusaurus/debug-142": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
-  "/cicd_tutorial/__docusaurus/debug/config-ef2": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
-  "/cicd_tutorial/__docusaurus/debug/content-39c": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    },
-    "__props": "__props---cicd-tutorial-docusaurus-debug-content-10-d-060"
-  },
-  "/cicd_tutorial/__docusaurus/debug/globalData-e26": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
-  "/cicd_tutorial/__docusaurus/debug/metadata-9fe": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
-  "/cicd_tutorial/__docusaurus/debug/registry-d29": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
-  "/cicd_tutorial/__docusaurus/debug/routes-2cd": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---cicd-tutorial-docusaurus-debugb-38-49c"
-    }
-  },
   "/cicd_tutorial/blog-e29": {
-    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       },
       {
-        "content": "content---cicd-tutorial-blogf-4-f-f6d"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---cicd-tutorial-blog-871-afb"
+        "content": "8717b14a"
       },
       {
-        "content": "content---cicd-tutorial-blog-925-fe1"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cicd-tutorial-blogf-79-42f"
+    "__props": "f794c8d9"
   },
   "/cicd_tutorial/blog/archive-413": {
-    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__comp": "9e4087bc",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "__props": "__props---cicd-tutorial-blog-archivec-41-b2c"
+    "__props": "c41ebf59"
   },
   "/cicd_tutorial/blog/authors-83c": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
+    "__comp": "621db11d",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "__props": "__props---cicd-tutorial-blog-authorsadd-b8f"
+    "sidebar": "814f3328",
+    "__props": "addd67c2"
   },
   "/cicd_tutorial/blog/authors/all-sebastien-lorber-articles-b6e": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       },
       {
-        "content": "content---cicd-tutorial-blogf-4-f-f6d"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---cicd-tutorial-blog-925-fe1"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "__props": "__props---cicd-tutorial-blog-authors-all-sebastien-lorber-articles-491-e7a"
+    "sidebar": "814f3328",
+    "__props": "491ebee9"
   },
   "/cicd_tutorial/blog/authors/yangshun-747": {
-    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       },
       {
-        "content": "content---cicd-tutorial-blog-871-afb"
+        "content": "8717b14a"
       },
       {
-        "content": "content---cicd-tutorial-blog-925-fe1"
+        "content": "925b3f96"
       }
     ],
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "__props": "__props---cicd-tutorial-blog-authors-yangshun-798-632"
+    "sidebar": "814f3328",
+    "__props": "7980b1a7"
   },
   "/cicd_tutorial/blog/first-blog-post-fa0": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "content": "content---cicd-tutorial-blog-first-blog-poste-27-8c2"
+    "sidebar": "814f3328",
+    "content": "e273c56f"
   },
   "/cicd_tutorial/blog/long-blog-post-4f9": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "content": "content---cicd-tutorial-blog-long-blog-post-736-268"
+    "sidebar": "814f3328",
+    "content": "73664a40"
   },
   "/cicd_tutorial/blog/mdx-blog-post-e63": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "content": "content---cicd-tutorial-blog-mdx-blog-post-593-0e8"
+    "sidebar": "814f3328",
+    "content": "59362658"
   },
   "/cicd_tutorial/blog/tags-2fb": {
-    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__comp": "01a85c17",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "__props": "__props---cicd-tutorial-blog-tagse-1-f-2dc"
+    "sidebar": "814f3328",
+    "__props": "e1fd4ddb"
   },
   "/cicd_tutorial/blog/tags/docusaurus-b6c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       },
       {
-        "content": "content---cicd-tutorial-blogf-4-f-f6d"
+        "content": "f4f34a3a"
       },
       {
-        "content": "content---cicd-tutorial-blog-871-afb"
+        "content": "8717b14a"
       },
       {
-        "content": "content---cicd-tutorial-blog-925-fe1"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cicd-tutorial-blog-tags-docusauruscd-7-75c"
+    "__props": "cd73966a"
   },
   "/cicd_tutorial/blog/tags/facebook-f6c": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       }
     ],
-    "__props": "__props---cicd-tutorial-blog-tags-facebook-8-a-5-82c"
+    "__props": "8a5ef84f"
   },
   "/cicd_tutorial/blog/tags/hello-2ec": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-766-15a"
+        "content": "7661071f"
       },
       {
-        "content": "content---cicd-tutorial-blog-871-afb"
+        "content": "8717b14a"
       }
     ],
-    "__props": "__props---cicd-tutorial-blog-tags-hellob-1-c-31f"
+    "__props": "b1c870d0"
   },
   "/cicd_tutorial/blog/tags/hola-051": {
-    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__comp": "6875c492",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
+    "sidebar": "814f3328",
     "items": [
       {
-        "content": "content---cicd-tutorial-blog-925-fe1"
+        "content": "925b3f96"
       }
     ],
-    "__props": "__props---cicd-tutorial-blog-tags-hola-019-5eb"
+    "__props": "019866af"
   },
   "/cicd_tutorial/blog/welcome-0fb": {
-    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__comp": "ccc49370",
     "__context": {
       "data": {
-        "blogMetadata": "blogMetadata---cicd-tutorial-blog-authorsace-92e"
+        "blogMetadata": "acecf23e"
       },
-      "plugin": "plugin---cicd-tutorial-blog-369-3b9"
+      "plugin": "36994c47"
     },
-    "sidebar": "sidebar---cicd-tutorial-blog-814-f05",
-    "content": "content---cicd-tutorial-blog-welcomed-9-f-37a"
+    "sidebar": "814f3328",
+    "content": "d9f32620"
   },
   "/cicd_tutorial/markdown-page-2a4": {
-    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__comp": "1f391b9e",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-markdown-pagea-74-065"
+      "plugin": "a7456010"
     },
-    "content": "content---cicd-tutorial-markdown-page-393-3b3"
+    "content": "393be207"
   },
   "/cicd_tutorial/docs-ca0": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-docsaba-174"
+      "plugin": "aba21aa0"
     }
   },
   "/cicd_tutorial/docs-ab6": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---cicd-tutorial-docsf-6-d-a43"
+    "__comp": "a7bd4aaa",
+    "__props": "f6d1a078"
   },
   "/cicd_tutorial/docs-aee": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
+    "__comp": "a94703ab"
   },
   "/cicd_tutorial/docs/category/tutorial---basics-ee2": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---cicd-tutorial-docs-category-tutorial-basics-85-c-e8c"
+    "__comp": "14eb3368",
+    "__props": "85c20df1"
   },
   "/cicd_tutorial/docs/category/tutorial---extras-630": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "__props": "__props---cicd-tutorial-docs-category-tutorial-extras-1-da-4b4"
+    "__comp": "14eb3368",
+    "__props": "1da3b90a"
   },
   "/cicd_tutorial/docs/intro-8b5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-intro-0-e-3-c97"
+    "__comp": "17896441",
+    "content": "0e384e19"
   },
   "/cicd_tutorial/docs/tutorial-basics/congratulations-4ca": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-congratulations-822-4cc"
+    "__comp": "17896441",
+    "content": "822bd8ab"
   },
   "/cicd_tutorial/docs/tutorial-basics/create-a-blog-post-cac": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-create-a-blog-post-533-d02"
+    "__comp": "17896441",
+    "content": "533a09ca"
   },
   "/cicd_tutorial/docs/tutorial-basics/create-a-document-dc6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-create-a-document-1-e-4-ddd"
+    "__comp": "17896441",
+    "content": "1e4232ab"
   },
   "/cicd_tutorial/docs/tutorial-basics/create-a-page-e69": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-create-a-page-5-c-8-c77"
+    "__comp": "17896441",
+    "content": "5c868d36"
   },
   "/cicd_tutorial/docs/tutorial-basics/deploy-your-site-6a8": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-deploy-your-sitef-55-6d4"
+    "__comp": "17896441",
+    "content": "f55d3e7a"
   },
   "/cicd_tutorial/docs/tutorial-basics/markdown-features-d79": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-basics-markdown-features-18-c-fc8"
+    "__comp": "17896441",
+    "content": "18c41134"
   },
   "/cicd_tutorial/docs/tutorial-extras/manage-docs-versions-2ab": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-extras-manage-docs-versionsdff-123"
+    "__comp": "17896441",
+    "content": "dff1c289"
   },
   "/cicd_tutorial/docs/tutorial-extras/translate-your-site-a13": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---cicd-tutorial-docs-tutorial-extras-translate-your-sitee-44-649"
+    "__comp": "17896441",
+    "content": "e44a2883"
   },
   "/cicd_tutorial/-88c": {
-    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
+    "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "plugin---cicd-tutorial-markdown-pagea-74-065"
+      "plugin": "a7456010"
     },
-    "config": "config---cicd-tutorial-5-e-9-654"
+    "config": "5e9f5e1a"
   }
 }
