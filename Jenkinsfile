@@ -38,5 +38,14 @@ pipeline{
                     }
             }
         }
+
+        stage("html_lint_test"){
+            steps{
+                sh '''
+                    npm install --save-dev htmlhint
+                    npx htmlhint --version
+                '''
+            }
+        }
     }  
 }
