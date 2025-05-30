@@ -41,10 +41,13 @@ pipeline{
 
         stage("html_lint_test"){
             steps{
-                sh '''
-                    npm install --save-dev htmlhint
-                    npx htmlhint --version
-                '''
+               catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    sh '''
+                        npm install --save-dev htmlhint
+                        npx htmlhint --version
+                        npx htmlhint build/
+                    '''
+                    }
             }
         }
     }  
