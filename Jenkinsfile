@@ -23,11 +23,13 @@ pipeline{
             //         sh "npm install"
             //         sh "npm run build"
             //     }
-                sh 'node -v'
-                echo "User: $(whoami)"
-                echo "HOME: $HOME"
-                echo "npm cache location: $(npm config get cache)"
-                sh 'npm install'
+                sh '''
+                    node -v
+                    echo "User: $(whoami)"
+                    echo "HOME: $HOME"
+                    echo "npm cache location: $(npm config get cache)"
+                    npm install
+                '''
             }
         }
 
