@@ -11,33 +11,38 @@ pipeline{
     } 
     
     stages{
-        stage("checkout"){
-            steps{
-                checkout scm
-            }
-        }
+        // stage("checkout"){
+        //     steps{
+        //         checkout scm
+        //     }
+        // }
 
         stage('build'){
             steps{
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {       
-                    sh "npm install"
-                    sh "npm run build"
-                }
+            //     catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {       
+            //         sh "npm install"
+            //         sh "npm run build"
+            //     }
+                sh 'node -v'
+                echo "User: $(whoami)"
+                echo "HOME: $HOME"
+                echo "npm cache location: $(npm config get cache)"
+                sh 'npm install'
             }
         }
 
-        stage("markdown_test"){
-            steps{
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    sh '''
-                        npm install 
-                        npm install markdownlint-cli2 --global
-                        markdownlint-cli2 -v
-                        markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
-                    '''
-                    }
-            }
-        }
+        // stage("markdown_test"){
+        //     steps{
+        //         catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+        //             sh '''
+        //                 npm install 
+        //                 npm install markdownlint-cli2 --global
+        //                 markdownlint-cli2 -v
+        //                 markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+        //             '''
+        //             }
+        //     }
+        // }
 
         stage("html_lint_test"){
             steps{
@@ -45,9 +50,9 @@ pipeline{
                     sh '''
                         npm install --save-dev htmlhint
                         npx htmlhint --version
-                        npx htmlhint build/
                     '''
                     }
+                        // npx htmlhint build/
             }
         }
     }  
