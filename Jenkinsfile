@@ -4,6 +4,7 @@ pipeline{
             image 'node:slim'
             label 'vagrant-node'
             // args '-v $HOME:.m2:/root/.m2'
+            args '-u vagrant'
         }
     }
 
