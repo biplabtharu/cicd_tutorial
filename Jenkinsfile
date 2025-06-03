@@ -1,7 +1,7 @@
 pipeline{
     agent{
         docker {
-            image 'node:alpine'
+            image 'node:slim'
             label 'vagrant-node'
             // args '-v $HOME:.m2:/root/.m2'
         }
