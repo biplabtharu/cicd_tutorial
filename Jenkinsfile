@@ -1,14 +1,20 @@
 pipeline{
     agent{
-        docker{
-            image 'node:20'
-            label 'agent-nodes'
-            }
+        docker {
+            image 'node:alpine'
+            label 'vagrant-node'
+            // args '-v $HOME:.m2:/root/.m2'
+        }
     }
 
-    environment{
-        NPM_CONFIG_CACHE = "/tmp/npm-cache"
-    } 
+    // agent{
+    //     dockerfile true
+    // }
+
+    // environment{
+    //     // NPM_CONFIG_CACHE = "/tmp/npm-cache"
+    //     USERNAME = credentials('username')
+    // } 
     
     stages{
         // stage("checkout"){
@@ -46,16 +52,16 @@ pipeline{
         //     }
         // }
 
-        stage("html_lint_test"){
-            steps{
-               catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    sh '''
-                        npm install --save-dev htmlhint
-                        npx htmlhint --version
-                    '''
-                    }
-                        // npx htmlhint build/
-            }
-        }
+        // stage("html_lint_test"){
+        //     steps{
+        //        catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+        //             sh '''
+        //                 npm install --save-dev htmlhint
+        //                 npx htmlhint --version
+        //             '''
+        //             }
+        //                 // npx htmlhint build/
+        //     }
+        // }
     }  
 }
